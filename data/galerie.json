@@ -3,5 +3,15 @@
     "titre": "Photo test",
     "categorie": "Automobile",
     "photo": "/images/img3772.jpeg"
+  },
+  {
+    "titre": "Test 2",
+    "categorie": "Automobile",
+    "photo": "/images/img3773.jpeg"
+  },
+  {
+    "titre": "Test studio",
+    "categorie": "Produit et studio",
+    "photo": "/images/img3774.jpeg"
   }
 ]
