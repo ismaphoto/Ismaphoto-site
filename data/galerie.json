@@ -216,18 +216,6 @@
     "photo": "/images/img3987.jpg"
   },
   {
-    "categorie": "Automobile",
-    "photo": "/images/img4141.jpg"
-  },
-  {
-    "categorie": "Automobile",
-    "photo": "/images/img4149.jpg"
-  },
-  {
-    "categorie": "Automobile",
-    "photo": "/images/img4151.jpg"
-  },
-  {
     "categorie": "Produit et studio",
     "photo": "/images/img4329.jpg"
   },
@@ -261,18 +249,18 @@
   },
   {
     "categorie": "Automobile",
-    "photo": "/images/img4557.jpg"
-  },
-  {
-    "categorie": "Automobile",
-    "photo": "/images/img4558.jpg"
-  },
-  {
-    "categorie": "Automobile",
     "photo": "/images/img4573.jpg"
   },
   {
     "categorie": "Automobile",
-    "photo": "/images/img4586.jpg"
+    "photo": "/images/img2236.jpg"
+  },
+  {
+    "categorie": "Automobile",
+    "photo": "/images/img2241.jpg"
+  },
+  {
+    "categorie": "Automobile",
+    "photo": "/images/img2242.jpg"
   }
 ]
