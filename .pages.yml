@@ -62,3 +62,9 @@ content:
         type: image
         options:
           media: photos
+
+      - name: photo_coulisses
+        label: Image Derrière l'objectif
+        type: image
+        options:
+          media: photos
