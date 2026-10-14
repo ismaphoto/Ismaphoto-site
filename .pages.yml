@@ -1,0 +1,33 @@
+
+media:
+  - name: photos
+    label: Mes photographies
+    input: images
+    output: /images
+    categories: [image]
+    rename: safe
+
+content:
+  - name: galerie
+    label: Galerie photographique
+    type: file
+    path: data/galerie.json
+    format: json
+    list: true
+    fields:
+      - name: titre
+        label: Titre de la photographie
+        type: string
+      - name: categorie
+        label: Catégorie
+        type: select
+        options:
+          values:
+            - Automobile
+            - Portrait
+            - Produit et studio
+      - name: photo
+        label: Photographie
+        type: image
+        options:
+          media: photos
