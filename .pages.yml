@@ -46,3 +46,19 @@ content:
       - name: description
         label: Description de l'image
         type: string
+
+      - name: photo_automobile
+        label: Image catégorie Automobile
+        type: image
+        options:
+          media: photos
+      - name: photo_portrait
+        label: Image catégorie Portrait
+        type: image
+        options:
+          media: photos
+      - name: photo_produit
+        label: Image catégorie Produit et Studio
+        type: image
+        options:
+          media: photos
