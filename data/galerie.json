@@ -29,10 +29,6 @@
   },
   {
     "categorie": "Automobile",
-    "photo": "/images/img1107.jpg"
-  },
-  {
-    "categorie": "Automobile",
     "photo": "/images/img1217.jpg"
   },
   {
@@ -62,5 +58,77 @@
   {
     "categorie": "Automobile",
     "photo": "/images/img2098.jpg"
+  },
+  {
+    "categorie": "Portrait",
+    "photo": "/images/img2206.jpg"
+  },
+  {
+    "categorie": "Portrait",
+    "photo": "/images/img2208.jpg"
+  },
+  {
+    "categorie": "Portrait",
+    "photo": "/images/img2212.jpg"
+  },
+  {
+    "categorie": "Automobile",
+    "photo": "/images/img2256.jpg"
+  },
+  {
+    "categorie": "Automobile",
+    "photo": "/images/img2265.jpg"
+  },
+  {
+    "categorie": "Automobile",
+    "photo": "/images/img2282.jpg"
+  },
+  {
+    "categorie": "Automobile",
+    "photo": "/images/img2328.jpg"
+  },
+  {
+    "categorie": "Automobile",
+    "photo": "/images/img2726.jpg"
+  },
+  {
+    "categorie": "Automobile",
+    "photo": "/images/img2728.jpg"
+  },
+  {
+    "categorie": "Automobile",
+    "photo": "/images/img2733.jpg"
+  },
+  {
+    "categorie": "Automobile",
+    "photo": "/images/img2734.jpg"
+  },
+  {
+    "categorie": "Automobile",
+    "photo": "/images/img2741.jpg"
+  },
+  {
+    "categorie": "Automobile",
+    "photo": "/images/img2742.jpg"
+  },
+  {
+    "categorie": "Automobile",
+    "photo": "/images/img2743.jpg"
+  },
+  {
+    "categorie": "Automobile",
+    "photo": "/images/img2748.jpg"
+  },
+  {
+    "categorie": "Automobile",
+    "photo": "/images/img2749.jpg"
+  },
+  {
+    "categorie": "Automobile",
+    "photo": "/images/img2750.jpg"
+  },
+  {
+    "categorie": "Automobile",
+    "photo": "/images/img2751.jpg"
   }
 ]
