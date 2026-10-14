@@ -1,4 +1,8 @@
 {
   "photo": "/images/img2739-2.jpg",
-  "description": "Photographie automobile par ISMAphoto_03"
+  "description": "Photographie automobile par ISMAphoto_03",
+  "photo_automobile": "/images/img2752carre.jpg",
+  "photo_portrait": "/images/img3927carre.jpg",
+  "photo_produit": "/images/img4501carre.jpg",
+  "photo_coulisses": "/images/logo.jpg"
 }
