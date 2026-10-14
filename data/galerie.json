@@ -1,1 +1,7 @@
-[]
+[
+  {
+    "titre": "Photo test",
+    "categorie": "Automobile",
+    "photo": "/images/img3772.jpeg"
+  }
+]
