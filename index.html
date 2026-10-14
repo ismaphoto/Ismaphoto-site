@@ -21,4 +21,27 @@
     photo.src = path;
   } catch (_) { /* Garde l’image d’origine si la configuration manque. */ }
 })();
+
+/* Les trois images de catégories sont réglables depuis Pages CMS.
+   Si un champ est vide ou qu'une image est inaccessible, l'illustration d'origine reste affichée. */
+(async function () {
+  try {
+    const response = await fetch('data/accueil.json', { cache: 'no-cache' });
+    if (!response.ok) return;
+    const settings = await response.json();
+    const categories = [
+      ['photo_automobile', '.visual-auto'],
+      ['photo_portrait', '.visual-portrait'],
+      ['photo_produit', '.visual-product']
+    ];
+    for (const [field, selector] of categories) {
+      const element = document.querySelector('#univers ' + selector);
+      const path = typeof settings[field] === 'string' ? settings[field].trim() : '';
+      if (!element || !/^\/images\/[a-zA-Z0-9_./% -]+\.(?:jpg|jpeg|png|webp|avif)$/i.test(path) || path.includes('..')) continue;
+      const picture = new Image();
+      picture.onload = () => { element.style.backgroundImage = 'url(' + JSON.stringify(path) + ')'; };
+      picture.src = path;
+    }
+  } catch (_) { /* Les illustrations d'origine restent visibles. */ }
+})();
 </script><script>document.getElementById('year').textContent=new Date().getFullYear()</script></body></html>
