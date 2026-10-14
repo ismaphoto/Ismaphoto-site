@@ -31,3 +31,18 @@ content:
         type: image
         options:
           media: photos
+
+  - name: accueil
+    label: Photo d'accueil
+    type: file
+    path: data/accueil.json
+    format: json
+    fields:
+      - name: photo
+        label: Photographie principale
+        type: image
+        options:
+          media: photos
+      - name: description
+        label: Description de l'image
+        type: string
