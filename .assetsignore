@@ -1,0 +1,9 @@
+
+**/.git
+**/.git/**
+**/node_modules
+.pages.yml
+.assetsignore
+.gitignore
+README.md
+README_LISEZ_MOI.txt
