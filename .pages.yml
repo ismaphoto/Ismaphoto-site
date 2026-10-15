@@ -95,3 +95,15 @@ content:
         type: image
         options:
           media: photos
+
+  - name: apropos
+    label: Photo À propos
+    type: file
+    path: data/apropos.json
+    format: json
+    fields:
+      - name: photo_principale
+        label: Photographie principale de la page À propos
+        type: image
+        options:
+          media: photos
