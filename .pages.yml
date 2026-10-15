@@ -68,3 +68,30 @@ content:
         type: image
         options:
           media: photos
+
+  - name: prestations
+    label: Photos des prestations
+    type: file
+    path: data/prestations.json
+    format: json
+    fields:
+      - name: photo_automobile
+        label: Photo Automobile & moto
+        type: image
+        options:
+          media: photos
+      - name: photo_portrait
+        label: Photo Portraits
+        type: image
+        options:
+          media: photos
+      - name: photo_produit
+        label: Photo Produits & studio
+        type: image
+        options:
+          media: photos
+      - name: photo_professionnel
+        label: Photo Professionnels & métiers
+        type: image
+        options:
+          media: photos
